@@ -177,6 +177,7 @@ def bind_api(**config):
 
             # Parse the response payload
             body = resp.read()
+            self.api.lastJSON = body
             if resp.getheader('Content-Encoding', '') == 'gzip':
                 try:
                     zipper = gzip.GzipFile(fileobj=StringIO(body))
