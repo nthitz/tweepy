@@ -1,3 +1,6 @@
+Fork of Tweepy that allows the raw JSON response to be easily accessed.
+
+
 Tweepy: Twitter for Python!
 ======
 [![Build Status](https://travis-ci.org/tweepy/tweepy.png?branch=master)](https://travis-ci.org/tweepy/tweepy)
